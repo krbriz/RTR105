@@ -1,5 +1,5 @@
 1  echo $0
-    2  man uname
+    2  man uname  #atrod
     3  who
     4  whoami
     5  pwd

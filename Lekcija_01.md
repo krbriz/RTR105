@@ -31,109 +31,27 @@
    echo $PATH - izpildāmais fails
    history - darbību vēsture
    
-   
 
-0 uname -a
-   1 echo $0
-   2 whoami
-   3 pwd
-   4 man ls
-   5 man pwd
-   6 pwd --help
-   7 ls --help
-   8 manls
-   9 man ls
-  10 ls --help
-  11 uname --help
-  12 ls -l
-  13 ls -lt
-  14 touch --help
-  15 ls -lt
-  16 touch test1.txt
-  17 ls -lt
+   6 pwd --help - palīgs
+   7 ls --help - palīgs
+  16 touch test1.txt - izmainīt failu
   18 touch -t 202109140000 start
-  19 ls -lt
   20 touch -t 202109140001 readme.txt
-  21 ls -lt
   22 touch -t 202109142359 stop
-  23 ls -lt
-  24 history
-  25 history | grep touch
-26 ls -lt
-  27 tree
-  28 find . -newer start
-  29 find . -newer start \! -newer stop
-  30 touch -t 202109150000 nexteday
-  31 ls -lt
+  24 history - vēsture
+  25 history | grep touch - vēsture
+  27 tree - redzams, kā izkārtojušies faili
   32 find . -newer start
   33 find . -newer start \! -newer stop
-  34 tree
   35 apt-get install tree
-  36 uname
-  37 uname -a
-  38 install tree
-  39 ls -lt
-  40 cd ..
-  41 pwd
-  42 ls -lt
-  43 cp /root/readme.txt /tmp/readme_copy.txt
+  43 cp /root/readme.txt /tmp/readme_copy.txt - kopēt failu
   44 pwd
-  45 ls -lt
-  46 ls -lt /tmp/
-  47 cd
-  48 pwd
-  49 ls -lt
   50 mv ../tmp/readme_copy.txt ./readme_copy_moved.txt
-  51 ls -lt
-  52 ls -lt /tmp/
-53 ls -lt
   54 mv readme.txt readme_original.txt
-  55 ls -lt
   56 rm nexteday
   57 ls -lt
-  58 touch text2.txt
-  59 ls -lt
-  60 rm te*t*.txt
-  61 ls -lt
-  62 hist
-  63 history
-  64 ls -lt
-  65 touch test.txt
-  66 ls -lt
-  67 echo cvvlldnldlj;as;l
-  68 echo cvvlldnldlnvfkhskfskhf
-  69 echo Hello World!
-  70 echo --hlep
-  71 echo --help
-  72 echo Hello World! Hello World!
-  73 echo Hello World!\nHello World!
-  74 echo -c Hello World!\nHello World!
-  75 echo -e Hello World!\nHello World!
-  76 echo -e "Hello World!\nHello World!"
-  77 echo "Hello World!\nHello World!"
-  78 echo -e "Hello World!\nHello World!"
-From Tatjana Solovjova to Everyone:  09:54 AM
-79 echo "Hello World!"
-  80 ls -lt
-  81 echo "Hello World!" > text.txt
-  82 ls -lt
-  83 cat text.txt
-  84 echo "12345" > text.txt
-  85 ls -lt
-  86 cat text.txt
-  87 echo "123456" > text.txt
-  88 ls -lt
-  89 cat text.txt
-  90 hexdump -C text.txt
-  91 ls -lt
-  92 cat text.txt
-  93 echo "7890" >> text.txt
-  94 ls -lt
-  95 cat text.txt
-  96 hexdump -C text.txt
-  97 echo "7890" >> text_.txt
-  98 ls -lt
-  99 cat text_.txt
+  58 touch text2.txt - izmainīt tekstu
+  60 rm te*t*.txt - aizvietot tekstu?
  100 nano text.txt
  101 ls -lt
  102 cat text_cits.txt

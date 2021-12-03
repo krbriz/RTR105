@@ -1,0 +1,26 @@
+1 #include<s t d i o . h>
+2 #include<math . h>
+3 double mans_sinuss ( double x ){
+4 double a , S ;
+5 i n t k=0;
+6
+7 a = pow(−1,k)∗pow(x ,2∗ k+1) /(1.) ;
+8 S = a ;
+9 p r i n t f ( ”%.2 f \ t%8.2 f \ t%8.2 f \n” ,x , a , S) ;
+10
+11 while (k<3){
+12 k++;
+13 a = a ∗ (−1) ∗x∗x / ((2∗ k) ∗(2∗k+1)) ;
+14 S = S + a ;
+15 p r i n t f ( ”%.2 f \ t%8.2 f \ t%8.2 f \n” ,x , a , S) ;
+16 }
+17 return S ;
+18 }
+19
+20 void main () {
+21 double x=2.05 ,y , yy ;
+22 y = s i n ( x ) ;
+23 p r i n t f ( ” standarta f u n k c i j a s i n − y=s i n (%.2 f )=%.2f \n” ,x , y ) ;
+24
+25 yy = mans_sinuss ( x ) ;
+26 p
